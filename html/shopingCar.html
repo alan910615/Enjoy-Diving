@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnjoyDiving</title>
+    <link rel="stylesheet" href="../css/shopingCar.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./Social.html">潛水社群</a></li>
+                <li><a href="./find_loc.html">找潛點</a></li>
+                <li><a href="./find_ people.html">揪團</a></li>
+                <li><a href="./shopCentent.html">裝備租售</a></li>
+                <li><a href="./News.html">最新消息</a></li>
+                <a href="./shopingCar.html" class="shopingcar_block"><img src="../icon/shopingcar-orange.png" width="23px"></a>
+                <div class="hamburg">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                </div>
+            </ul>
+        </nav>
+        <div class="side_bar">
+            <a href="./Social.html" class="RWD1">潛水社群</a>
+            <a href="./find_loc.html" class="RWD2">找潛點</a>
+            <a href="./find_ people.html" class="RWD3">揪團</a>
+            <a href="./shopCentent.html" class="RWD4">裝備租售</a>
+            <a href="./News.html" class="RWD5">最新消息</a>
+            <a href="./shopingCar.html" class="RWD6 here">購物車</a>
+            <a href="./login.html" class="RWD7">登入＼註冊</a>
+        </div>
+    </header>
+
+
+    <div class="Rwd_Checkout on">
+        <div class="to_Checkout">前往結帳</div>
+        <div class="RWD_count_block">
+            <p class="count_title">訂單摘要</p>
+            <div class="frame_body">
+                <p class="label">商品總計</p>
+                <p class="medium_blocl"></p>
+                <p class="price">＄3000</p>
+
+                <p class="label">運費總計</p>
+                <p class="medium_blocl"></p>
+                <p class="price">＄0</p>
+
+                <p class="label">折扣優惠</p>
+                <p class="medium_blocl"></p>
+                <p class="price">＄0</p>
+
+                <p class="line"></p>
+
+                <p class="Total_label">結帳總金額 :</p>
+                <p class="Total_medium_blocl"></p>
+                <p class="Total_price">＄3000</p>
+
+                <button class="Checkout">前往結帳</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gray_block close1"></div>
+
+    <main>
+        <div class="Bulletin">
+            <ul>
+                <li>新會員 9/30 前下單即可現折運費 NT$ 65</li>
+                <li>10/1 前，全站商品不限品類，滿 NT$2500，折抵 5%。</li>
+            </ul>
+        </div>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Spec</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>
+                        <a href="../html/ product_6.html"><img src="../商品圖/蛙鞋.jpg"></a>
+                    </td>
+
+                    <td>
+                        蛙鞋
+                        <p class="Rwd_color black">黑</p>
+                    </td>
+    
+                    <td>
+                        <p>金剛黑</p>
+                    </td>
+    
+                    <td>
+                        <p>$</p>
+                        <p>1000</p>
+                    </td>
+    
+                    <td>
+                        <select class="select" onchange="count();">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </td>
+    
+                    <td>
+                        <p>$</p>
+                        <p class="count_price">1000</p>
+                    </td>
+    
+                    <td>
+                        <img class="close" src="../icon/close_icon_black.png">
+                    </td>
+    
+                </tr>
+    
+                <tr>
+                    <td>
+                        <a href="./ product_2.html"><img src="../商品圖/毛巾衣.jpg"></a>
+                    </td>
+    
+                    <td>
+                        毛巾衣
+                        <p class="Rwd_color blue">藍</p>
+                    </td>
+    
+                    <td>
+                        <p>水墨藍</p>
+                    </td>
+    
+                    <td>
+                        <p>$1000</p>
+                    </td>
+    
+                    <td>
+                        <select class="select" onchange="count();">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </td>
+    
+                    <td>
+                        <p>$</p>
+                        <p  class="count_price">1000</p>
+                    </td>
+    
+                    <td>
+                        <img class="close" src="../icon/close_icon_black.png">
+                    </td>
+    
+                </tr>
+    
+                <tr>
+                    <td>
+                        <a href="./ product_4.html"><img src="../商品圖/面鏡1.jpg"></a>
+                    </td>
+    
+                    <td>
+                        面鏡
+                        <p class="Rwd_color green">綠</p>
+                    </td>
+    
+                    <td>
+                        <p>湖水綠</p>
+                    </td>
+    
+                    <td>
+                        <p>$</p>
+                        <p>1000</p>
+                    </td>
+    
+                    <td>
+                        <select class="select" onchange="count();">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </td>
+    
+                    <td>
+                        <p>$</p>
+                        <p  class="count_price">1000</p>
+                    </td>
+    
+                    <td>
+                        <img class="close" src="../icon/close_icon_black.png" alt="移除此商品">
+                    </td>
+    
+                </tr>
+
+
+            </tbody>
+        </table>
+
+        <div class="count_block">
+            <p class="count_title">訂單摘要</p>
+            <div class="frame_body">
+                <p class="label">商品總計</p>
+                <p class="medium_blocl"></p>
+                <p class="price">3000</p>
+
+                <p class="label">運費總計</p>
+                <p class="medium_blocl"></p>
+                <p class="price">0</p>
+
+                <p class="label">折扣優惠</p>
+                <p class="medium_blocl"></p>
+                <p class="price">0</p>
+
+                <p class="line"></p>
+
+                <p class="Total_label">結帳總金額 :</p>
+                <p class="Total_medium_blocl"></p>
+                <p class="Total_price" id="Total_price">3000</p>
+
+                <button class="Checkout">前往結帳</button>
+            </div>
+        </div>
+
+    </main>
+    <div class="footer">Copyright © 2020 Alan All rights reserved</div>
+
+
+
+
+
+
+    <script>
+
+        var product_array = JSON.parse(localStorage.getItem('product_array'));
+
+        for(let i = 0;i < product_array.length; i++ ){
+            var tbody = document.getElementById('tbody');
+            var name = product_array[i].name; 
+            var photo = product_array[i].photo;
+            var color = product_array[i].color;
+            var qty = product_array[i].qty;
+            var price = product_array[i].price;
+            var product_page = product_array[i].here;
+
+
+
+            var tr = 
+            `<tr>
+                    <td>
+                        <a href="${product_page}"><img src="${photo}"></a>
+                    </td>
+                    <td>
+                        ${name}
+                        <p class="Rwd_color green">綠</p>
+                    </td>
+                    <td>
+                        <p>${color}</p>
+                    </td>
+                    <td>
+                        <p>$</p>
+                        <p>${price}</p>
+                    </td>
+                    <td>
+                        <select class="select"  id="select" onchange="count();">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p>$</p>
+                        <p  class="count_price">1000</p>
+                    </td>
+                    <td>
+                        <img class="close" src="../icon/close_icon_black.png" alt="移除此商品">
+                    </td>
+                </tr>`;
+
+
+
+            addProduct();
+            function addProduct(){
+                
+                tbody.insertAdjacentHTML("beforeend", tr);
+                var select = document.getElementsByClassName('select');
+                select[i].value = qty;
+            };
+
+
+        };
+
+        var count_price = document.getElementsByClassName('count_price');
+        var Total_price = document.getElementById('Total_price');
+        var aaa = 0;
+        for(let i = 0; i < count_price.length ; i++){
+            aaa += parseInt(count_price[i].innerText);
+        };
+        
+
+
+
+    </script>
+    <script src="../JS/script.js"></script>
+
+</body>
+</html>

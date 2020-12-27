@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>尋找潛點</title>
+    <link rel="stylesheet" href="../css/Social.css">
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./Social.html" class="here">潛水社群</a></li>
+                <li><a href="./find_loc.html">找潛點</a></li>
+                <li><a href="./find_ people.html">揪團</a></li>
+                <li><a href="./shopCentent.html">裝備租售</a></li>
+                <li><a href="./News.html">最新消息</a></li>
+                <a href="./shopingCar.html" class="shopingcar_block"><img src="../icon/shopingcar-blue.png" width="23px"></a>
+                <div class="hamburg">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                </div>
+            </ul>
+        </nav>
+        <div class="side_bar">
+            <a href="./Social.html" class="RWD1 here">潛水社群</a>
+            <a href="./find_loc.html" class="RWD2">找潛點</a>
+            <a href="./find_ people.html" class="RWD3">揪團</a>
+            <a href="./shopCentent.html" class="RWD4">裝備租售</a>
+            <a href="./News.html" class="RWD5">最新消息</a>
+            <a href="./shopingCar.html" class="RWD6">購物車</a>
+            <a href="./login.html" class="RWD7">登入＼註冊</a>
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="../banner/社群banner.png" width="100%">
+    </div>
+
+
+    <main>
+        <div>
+            <div class="user">
+                <img src="../user/118676539_726503941239519_1828621713339011936_n.jpg" width="100%">
+            </div>
+            <p class="user_name">Amber</p>
+            <div class="photo">
+                <img src="../photo/social_1.jpg" width="100%">
+            </div>
+            <div class="icon_block">
+
+                <div class="like">
+                    <img src="../icon/like.png" width="100%">
+                </div>
+
+                <div class="massge">
+                    <img src="../icon/message.png" width="100%">
+                </div>
+
+                <div class="save">
+                    <img src="../icon/save.png" width="100%">
+                </div>
+
+            </div>
+            <p class="content">
+                當下潛時，<br>
+                海水的溫度越來越低，<br>
+                四周的光亮越來越少，<br>
+                心跳和呼吸的聲音越來越清晰，<br>
+                那是ㄧ種被孤寂包圍的感覺，<br>
+                但也讓人感到沉靜。<br>
+            </p>
+
+            <p class="time">3 days ago</p>
+        </div>
+
+
+        <div>
+            <div class="user">
+                <img src="../user/user2.jpg" width="100%">
+            </div>
+            <p class="user_name">Alice</p>
+            <div class="photo">
+                <img src="../photo/social_2.jpg" width="100%">
+            </div>
+            <div class="icon_block">
+
+                <div class="like">
+                    <img src="../icon/like.png" width="100%">
+                </div>
+
+                <div class="massge">
+                    <img src="../icon/message.png" width="100%">
+                </div>
+
+                <div class="save">
+                    <img src="../icon/save.png" width="100%">
+                </div>
+
+            </div>
+            <p class="content">
+                Sun with Ocean。
+            </p>
+
+            <p class="time">3 days ago</p>
+        </div>
+
+        <div>
+            <div class="user">
+                <img src="../user/user3.jpg" width="100%">
+            </div>
+            <p class="user_name">Ivy Chen</p>
+            <div class="photo">
+                <img src="../photo/social_3.jpg" width="100%">
+            </div>
+            <div class="icon_block">
+
+                <div class="like">
+                    <img src="../icon/like.png" width="100%">
+                </div>
+
+                <div class="massge">
+                    <img src="../icon/message.png" width="100%">
+                </div>
+
+                <div class="save">
+                    <img src="../icon/save.png" width="100%">
+                </div>
+
+            </div>
+            <p class="content">
+                用不一樣的相機，得到不一樣的效果。<br><br>
+                其實我們可以很不一樣對吧？<br>
+            </p>
+
+            <p class="time">3 days ago</p>
+        </div>
+
+        <div>
+            <div class="user">
+                <img src="../user/user4.jpg" height="100%">
+            </div>
+            <p class="user_name">Erica</p>
+            <div class="photo">
+                <img src="../photo/八代灣沉船2.jpg" width="100%">
+            </div>
+            <div class="icon_block">
+
+                <div class="like">
+                    <img src="../icon/like.png" width="100%">
+                </div>
+
+                <div class="massge">
+                    <img src="../icon/message.png" width="100%">
+                </div>
+
+                <div class="save">
+                    <img src="../icon/save.png" width="100%">
+                </div>
+
+            </div>
+            <p class="content">
+                廣角太美了～<br>
+            </p>
+
+            <p class="time">3 days ago</p>
+        </div>
+    </main>
+
+
+    <div class="footer">Copyright © 2020 Alan All rights reserved</div>
+    <script src="../JS/script.js"></script>
+    <script>
+        var like = document.querySelectorAll('.like');
+        for (let i = 0; i < like.length; i++) {
+            like[i].addEventListener('click', function(e) {
+
+                if(e.target.src != "http://140.115.236.71/demo-personal/TED101/web/202007-WD01009/newhtml/icon/like1.png"){
+                    e.target.src="../icon/like1.png";
+                    console.log(e.target.src);
+                }else if(e.target.src != "../icon/like.png"){
+                    e.target.src="../icon/like.png"; 
+                };
+            });
+        }
+
+
+        var save = document.querySelectorAll('.save');
+        for (let i = 0; i < like.length; i++) {
+            save[i].addEventListener('click', function(e) {
+
+                if(e.target.src != "http://140.115.236.71/demo-personal/TED101/web/202007-WD01009/newhtml/icon/save1.png"){
+                    e.target.src="../icon/save1.png";
+                    console.log(e.target.src);
+                }else if(e.target.src != "../icon/save.png"){
+                    e.target.src="../icon/save.png"; 
+                };
+            });
+        }
+
+    </script>
+
+
+</body>
+</html>
