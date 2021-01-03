@@ -33,7 +33,6 @@ header {
 }
 
 a.logo {
-	/* border: 1px solid red; */
 	width: 70px;
 	height: 100%;
 	margin-left: 70px;
@@ -46,8 +45,6 @@ a.logo {
 }
 
 nav {
-	/* border: 1px solid blue; */
-	/* background-color: rgb(122, 188, 226); */
 	display: inline-block;
 	width: calc(100% - 140px);
 	height: 100%;
@@ -56,7 +53,6 @@ nav {
 }
 
 div.hamburg {
-	/* border: 1px solid; */
 	width: 50px;
 	height: 50px;
 	position: relative;
@@ -123,7 +119,6 @@ nav ul li a {
 	display: inline-block;
 	padding: 8px;
 	color: rgb(29, 101, 143);
-	/* border: 1px solid; */
 	transition: .3s;
 	transform: scale(1);
 }
@@ -148,7 +143,6 @@ nav ul {
 	display: inline-flex;
 	align-items: center;
 	justify-content: flex-end;
-	/* border: 1px solid red; */
 	width: 100%;
 	height: 100%;
 }
@@ -168,7 +162,6 @@ div.side_bar {
 	right: 0px;
 	background-color: rgb(243, 243, 243);
 	width: 150px;
-	/* height: 400px; */
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
@@ -179,15 +172,11 @@ div.side_bar {
 
 .open {
 	transform: translate(0%, 0%) !important;
-	/* transition: .6s cubic-bezier(.5, -0.51, .51, 1.48); */
 }
 
 div.side_bar a {
-	/* border: 1px solid; */
 	font-size: 16px;
 	padding: 10px;
-	/* width: 100px; */
-	/* height: 80px; */
 	text-align: center;
 	margin: 10px 0px;
 	transition: .3s;
@@ -205,15 +194,12 @@ div.side_bar a {
 div.banner_outside {
 	width: 100%;
 	height: calc(100vh - 70px);
-	/* border: 1px solid; */
 	margin: auto;
 	overflow: hidden;
 }
 
 img.banner {
-	/* max-width: 100%; */
 	width: 100%;
-	/* min-width: 1200px; */
 	transform: translateY(-150px);
 }
 
@@ -228,9 +214,7 @@ div.about_us {
 
 div.img_block {
 	width: 600px;
-	/* height: 600px; */
 	display: inline-block;
-	/* border: 1px solid; */
 }
 
 div.about_us div.about_text {
@@ -241,7 +225,6 @@ div.about_us div.about_text {
 	color: rgb(0, 0, 0);
 	justify-content: center;
 	align-items: center;
-	/* border: 1px solid; */
 }
 
 div.about_text h2 {
@@ -250,7 +233,6 @@ div.about_text h2 {
 	font-weight: 100;
 	padding: 50px;
 	border-right: 1px solid;
-	/* height: 300px; */
 	line-height: 30px;
 	color: rgb(14, 14, 48);
 }
@@ -270,8 +252,6 @@ div.about_text p {
 /* 揪團去 */
 div.find_team {
 	width: 1200px;
-	/* height: 700px; */
-	/* border: 1px solid; */
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
@@ -292,7 +272,6 @@ div.find_team > div {
 	display: inline-flex;
 	width: 33%;
 	height: 250px;
-	/* background-color: rgb(230, 152, 152); */
 	align-items: center;
 	align-content: center;
 	flex-wrap: wrap;
@@ -333,9 +312,7 @@ div.find_team > a:hover {
 	background-color: #fcc2a0;
 }
 div.diving_location {
-	/* border: 1px solid; */
 	width: 1200px;
-	/* height: 1000px; */
 	margin: auto;
 	margin-top: 30px;
 	position: relative;
@@ -346,7 +323,6 @@ div.diving_location > p {
 	font-size: 40px;
 	font-family: "RobotoSlab";
 	color: red;
-	/* letter-spacing: 10px; */
 	width: 50%;
 	margin-left: 50px;
 }
@@ -369,7 +345,6 @@ div.diving_location > p::before {
 }
 
 div.article {
-	/* border: 1px solid red; */
 	width: 1200px;
 	height: 800px;
 	margin: auto;
@@ -379,17 +354,13 @@ div.article {
 }
 
 div.big_block {
-	/* border: 1px solid blue; */
 	width: 50%;
-	/* height: 100%; */
 	display: inline-block;
-	/* background: #19b4db; */
 	box-sizing: border-box;
 	vertical-align: top;
 }
 
 div.small_block {
-	/* border: 1px solid rgb(39, 156, 15); */
 	width: 49%;
 	height: 600px;
 	display: inline-flex;
@@ -401,7 +372,6 @@ div.small_block {
 div.small_block > div {
 	width: 100%;
 	height: 32%;
-	/* border: 1px solid rgb(245, 204, 127); */
 	display: inline-block;
 }
 
@@ -460,12 +430,12 @@ a.small_photo {
 a.big_block_photo img,
 a.small_photo img {
 	transform: scale(1);
-	transition: all .5s;
+	transition: all 1.2s;
 }
 
 a.big_block_photo img:hover,
 a.small_photo img:hover {
-	transform: scale(1.07);
+	transform: scale(1.04);
 }
 
 a.small_photo {
@@ -476,7 +446,6 @@ a.small_photo {
 }
 
 div.small_block_content {
-	/* border: 1px solid; */
 	box-sizing: border-box;
 	width: calc(100% - 192px);
 	height: 100%;
@@ -517,7 +486,6 @@ div.small_block_content p {
 	padding: 20px 15px 0px 15px;
 	line-height: 22px;
 	text-align: justify;
-	/* font-family: "taitpe-fonts-Light"; */
 	font-weight: 100;
 	color: rgb(10, 15, 43);
 	font-family: "taitpe-fonts-Light";
@@ -525,9 +493,7 @@ div.small_block_content p {
 }
 
 div.news_block {
-	/* border: 1px solid; */
 	width: 1200px;
-	/* height: 800px; */
 	position: relative;
 	margin: 0 auto;
 }
@@ -536,7 +502,6 @@ div.news_block > p {
 	font-size: 40px;
 	font-family: "RobotoSlab";
 	color: red;
-	/* border: 1px solid; */
 	margin-left: 50px;
 }
 
@@ -550,7 +515,6 @@ p.news::first-letter {
 
 div.news_block > p::before {
 	content: "";
-	/* border: 1px solid red; */
 	height: 4px;
 	background-color: red;
 	width: 200px;
@@ -563,8 +527,6 @@ div.news_block > p::before {
 
 div.content_position {
 	width: 100%;
-	/* height: 650px; */
-	/* border: 1px solid rgb(35, 0, 236); */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -574,7 +536,6 @@ div.content_position > div {
 	display: inline-block;
 	width: 375px;
 	height: 370px;
-	/* border: 1px solid darkorange; */
 	margin: 10px 0px;
 	position: relative;
 }
@@ -582,7 +543,6 @@ div.content_position > div {
 a.content_photo {
 	border-radius: 5px;
 	overflow: hidden;
-	/* border: 1px solid green; */
 	width: 100%;
 	display: block;
 	overflow: hidden;
@@ -613,7 +573,6 @@ div.content_position > div > a {
 
 div.content_position > div > div.view {
 	display: inline-block;
-	/* border: 1px solid green; */
 	display: inline-flex;
 	justify-content: center;
 	position: absolute;
@@ -645,7 +604,6 @@ p.date {
 p.content {
 	width: 95%;
 	white-space: nowrap;
-	/* border: 1px solid; */
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: inline-block;
@@ -659,8 +617,6 @@ p.content {
 
 div.address {
 	width: 800px;
-	/* height: 400px; */
-	/* border: 1px solid; */
 	margin: 0px auto;
 	margin-top: 50px;
 	margin-bottom: 100px;
@@ -669,7 +625,6 @@ div.map {
 	width: 400px;
 	height: 400px;
 	display: inline-block;
-	/* border: 1px solid; */
 }
 
 div.address_content {
@@ -678,7 +633,6 @@ div.address_content {
 	display: inline-flex;
 	flex-wrap: wrap;
 	align-content: center;
-	/* border: 1px solid; */
 	vertical-align: top;
 }
 
@@ -736,7 +690,6 @@ p.address_3 span {
 div.Community {
 	width: 230px;
 	height: 50px;
-	/* border: 1px solid; */
 	margin: 0 auto;
 	vertical-align: top;
 	display: flex;
@@ -799,15 +752,12 @@ a.line {
 	div.banner_outside {
 		width: 100%;
 		height: calc(100vh - 70px);
-		/* border: 1px solid; */
 		margin: auto;
 		overflow: hidden;
 	}
 
 	img.banner {
-		/* max-width: 100%; */
 		width: 100%;
-		/* min-width: 1200px; */
 		transform: translateY(-150px);
 	}
 
@@ -837,8 +787,6 @@ a.line {
 
 	div.find_team {
 		width: 100%;
-		/* height: 700px; */
-		/* border: 1px solid; */
 		margin: auto;
 		display: flex;
 		justify-content: space-around;
@@ -851,7 +799,6 @@ a.line {
 		display: inline-flex;
 		width: 33%;
 		height: 250px;
-		/* background-color: rgb(230, 152, 152); */
 		align-items: center;
 		align-content: center;
 		flex-wrap: wrap;
@@ -867,7 +814,6 @@ a.line {
 		font-size: 40px;
 		font-family: "RobotoSlab";
 		color: red;
-		/* letter-spacing: 10px; */
 		margin-left: 50px;
 	}
 
@@ -877,7 +823,6 @@ a.line {
 
 	div.diving_location > p::before {
 		content: "";
-		/* border: 1px solid red; */
 		height: 2px;
 		background-color: red;
 		width: 200px;
@@ -889,7 +834,6 @@ a.line {
 	}
 
 	div.diving_location {
-		/* border: 1px solid; */
 		width: 100%;
 		height: 1600px;
 		margin: auto;
@@ -899,9 +843,7 @@ a.line {
 	}
 
 	div.article {
-		/* border: 1px solid red; */
 		width: 100%;
-		/* height: 800px; */
 		margin: auto;
 		box-sizing: border-box;
 		display: flex;
@@ -910,16 +852,13 @@ a.line {
 	}
 
 	div.big_block {
-		/* border: 1px solid blue; */
 		width: 600px;
 		height: 100%;
 		display: block;
-		/* background: #19b4db; */
 		box-sizing: border-box;
 	}
 
 	div.small_block {
-		/* border: 1px solid rgb(39, 156, 15); */
 		width: 600px;
 		height: 600px;
 		display: flex;
@@ -929,9 +868,7 @@ a.line {
 	}
 
 	div.news_block {
-		/* border: 1px solid; */
 		width: 992px;
-		/* height: 800px; */
 		margin: 0 auto;
 	}
 
@@ -939,7 +876,6 @@ a.line {
 		display: inline-block;
 		width: 375px;
 		height: 370px;
-		/* border: 1px solid darkorange; */
 		margin: 10px 0px;
 		position: relative;
 	}
@@ -974,15 +910,12 @@ a.line {
 	div.banner_outside {
 		width: 100%;
 		height: 500px;
-		/* border: 1px solid; */
 		margin: auto;
 		overflow: hidden;
 	}
 
 	img.banner {
-		/* max-width: 100%; */
 		width: 100%;
-		/* min-width: 1200px; */
 		transform: translateY(-150px);
 	}
 
@@ -1012,8 +945,6 @@ a.line {
 
 	div.find_team {
 		width: 90%;
-		/* height: 700px; */
-		/* border: 1px solid; */
 		margin: auto;
 		display: flex;
 		justify-content: space-around;
@@ -1026,7 +957,6 @@ a.line {
 		display: inline-flex;
 		width: 33%;
 		height: 250px;
-		/* background-color: rgb(230, 152, 152); */
 		align-items: center;
 		align-content: center;
 		flex-wrap: wrap;
@@ -1038,7 +968,6 @@ a.line {
 		font-size: 40px;
 		font-family: "RobotoSlab";
 		color: red;
-		/* letter-spacing: 10px; */
 		margin-left: 50px;
 	}
 
@@ -1073,7 +1002,6 @@ a.line {
 	}
 
 	div.diving_location {
-		/* border: 1px solid red; */
 		width: 100%;
 		height: 1600px;
 		margin: auto;
@@ -1083,7 +1011,6 @@ a.line {
 	}
 
 	div.article {
-		/* border: 1px solid red; */
 		width: 100%;
 		height: 800px;
 		margin: auto;
@@ -1094,16 +1021,13 @@ a.line {
 	}
 
 	div.big_block {
-		/* border: 1px solid blue; */
 		width: 600px;
 		height: 100%;
 		display: block;
-		/* background: #19b4db; */
 		box-sizing: border-box;
 	}
 
 	div.small_block {
-		/* border: 1px solid rgb(39, 156, 15); */
 		width: 600px;
 		height: 600px;
 		display: flex;
@@ -1113,9 +1037,7 @@ a.line {
 	}
 
 	div.news_block {
-		/* border: 1px solid; */
 		width: 100%;
-		/* height: 800px; */
 		margin: 0 auto;
 	}
 
@@ -1123,15 +1045,12 @@ a.line {
 		display: inline-block;
 		width: 375px;
 		height: 370px;
-		/* border: 1px solid darkorange; */
 		margin: 10px 0px;
 		position: relative;
 	}
 
 	div.address {
 		width: 100%;
-		/* height: 400px; */
-		/* border: 1px solid; */
 		margin: 0px auto;
 		margin-bottom: 80px;
 	}
@@ -1176,15 +1095,12 @@ a.line {
 	div.banner_outside {
 		width: 100%;
 		height: 400px;
-		/* border: 1px solid; */
 		margin: auto;
 		overflow: hidden;
 	}
 
 	img.banner {
-		/* max-width: 100%; */
 		width: 100%;
-		/* min-width: 1200px; */
 		transform: translateY(-70px);
 	}
 
@@ -1213,8 +1129,6 @@ a.line {
 
 	div.find_team {
 		width: 576px;
-		/* height: 700px; */
-		/* border: 1px solid; */
 		margin: auto;
 		display: flex;
 		flex-wrap: wrap;
@@ -1227,7 +1141,6 @@ a.line {
 		display: flex;
 		width: 500px;
 		height: 250px;
-		/* background-color: rgb(230, 152, 152); */
 		align-items: center;
 		align-content: center;
 		flex-direction: column;
@@ -1242,7 +1155,6 @@ a.line {
 		font-size: 40px;
 		font-family: "RobotoSlab";
 		color: red;
-		/* letter-spacing: 10px; */
 		margin-left: 50px;
 	}
 
@@ -1264,7 +1176,6 @@ a.line {
 	}
 
 	div.diving_location {
-		/* border: 1px solid; */
 		width: 100%;
 		height: 1600px;
 		margin: auto;
@@ -1274,7 +1185,6 @@ a.line {
 	}
 
 	div.article {
-		/* border: 1px solid red; */
 		width: 100%;
 		height: 800px;
 		margin: auto;
@@ -1285,16 +1195,13 @@ a.line {
 	}
 
 	div.big_block {
-		/* border: 1px solid blue; */
 		width: 576px;
 		height: 100%;
 		display: block;
-		/* background: #19b4db; */
 		box-sizing: border-box;
 	}
 
 	div.small_block {
-		/* border: 1px solid rgb(39, 156, 15); */
 		width: 576px;
 		height: 600px;
 		display: flex;
@@ -1307,7 +1214,6 @@ a.line {
 		font-size: 40px;
 		font-family: "RobotoSlab";
 		color: red;
-		/* letter-spacing: 10px; */
 		margin-left: 50px;
 	}
 
@@ -1329,9 +1235,7 @@ a.line {
 	}
 
 	div.news_block {
-		/* border: 1px solid; */
 		width: 576px;
-		/* height: 800px; */
 		margin: 0 auto;
 	}
 
@@ -1339,14 +1243,11 @@ a.line {
 		display: inline-block;
 		width: 375px;
 		height: 370px;
-		/* border: 1px solid darkorange; */
 		margin: 10px 0px;
 		position: relative;
 	}
 	div.address {
 		width: 100%;
-		/* height: 400px; */
-		/* border: 1px solid; */
 		margin: 0px auto;
 		margin-bottom: 80px;
 	}
@@ -1391,15 +1292,12 @@ a.line {
 	div.banner_outside {
 		width: 100%;
 		height: 350px;
-		/* border: 1px solid; */
 		margin: auto;
 		overflow: hidden;
 	}
 
 	img.banner {
-		/* max-width: 100%; */
 		width: 100%;
-		/* min-width: 1200px; */
 		transform: translateY(-70px);
 	}
 
@@ -1418,7 +1316,6 @@ a.line {
 
 	div.about_us div.about_text {
 		width: 100%;
-		/* height: 400px; */
 		display: flex;
 		background: #ffba84;
 		color: rgb(0, 0, 0);
@@ -1430,8 +1327,6 @@ a.line {
 	div.find_team {
 		width: 90%;
 		min-width: 320px;
-		/* height: 700px; */
-		/* border: 1px solid; */
 		margin: auto;
 		display: flex;
 		flex-wrap: wrap;
@@ -1444,7 +1339,6 @@ a.line {
 		display: flex;
 		width: 300px;
 		height: 250px;
-		/* background-color: rgb(230, 152, 152); */
 		align-items: center;
 		align-content: center;
 		flex-direction: column;
@@ -1460,7 +1354,6 @@ a.line {
 		font-size: 40px;
 		font-family: "RobotoSlab";
 		color: red;
-		/* letter-spacing: 10px; */
 		margin-left: 50px;
 	}
 	body {
@@ -1485,7 +1378,6 @@ a.line {
 	}
 
 	div.diving_location {
-		/* border: 1px solid; */
 		width: 100%;
 		height: 2570px;
 		margin: auto;
@@ -1495,7 +1387,6 @@ a.line {
 	}
 
 	div.article {
-		/* border: 1px solid red; */
 		width: 100%;
 		height: 800px;
 		margin: auto;
@@ -1506,11 +1397,8 @@ a.line {
 	}
 
 	div.big_block {
-		/* border: 1px solid blue; */
 		width: 320px;
-		/* height: 800px; */
 		display: block;
-		/* background: #19b4db; */
 		box-sizing: border-box;
 		margin: 0px auto;
 		margin-bottom: 50px;
@@ -1543,7 +1431,6 @@ a.line {
 	div.small_block {
 		width: 319px;
 		display: block;
-		/* height: 2000px; */
 	}
 
 	div.small_block div {
@@ -1571,15 +1458,12 @@ a.line {
 
 	div.small_block_content div.star {
 		position: static;
-		/* margin: 5px 0px 0px 15px; */
 		padding-left: 15px;
 		width: 300px;
 	}
 
 	div.news_block {
-		/* border: 1px solid; */
 		width: 100%;
-		/* height: 800px; */
 		margin: 0 auto;
 		position: relative;
 		left: 50%;
@@ -1590,9 +1474,7 @@ a.line {
 		display: inline-block;
 		width: 319px;
 		height: 370px;
-		/* border: 1px solid darkorange; */
 		margin: 10px 0px;
-		/* position: relative; */
 	}
 
 	div.address {

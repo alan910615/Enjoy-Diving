@@ -88,7 +88,7 @@
                 </tr>
             </thead>
             <tbody id="tbody">
-                <tr>
+                <tr class="product">
                     <td>
                         <a href="../html/ product_6.html"><img src="../商品圖/蛙鞋.jpg"></a>
                     </td>
@@ -132,7 +132,7 @@
     
                 </tr>
     
-                <tr>
+                <tr class="product">
                     <td>
                         <a href="./ product_2.html"><img src="../商品圖/毛巾衣.jpg"></a>
                     </td>
@@ -175,7 +175,7 @@
     
                 </tr>
     
-                <tr>
+                <tr class="product">
                     <td>
                         <a href="./ product_4.html"><img src="../商品圖/面鏡1.jpg"></a>
                     </td>
@@ -228,15 +228,15 @@
             <div class="frame_body">
                 <p class="label">商品總計</p>
                 <p class="medium_blocl"></p>
-                <p class="price">3000</p>
+                <p class="price" id="countPrice">0</p>
 
                 <p class="label">運費總計</p>
                 <p class="medium_blocl"></p>
-                <p class="price">0</p>
+                <p class="price" id="shipFee">0</p>
 
                 <p class="label">折扣優惠</p>
                 <p class="medium_blocl"></p>
-                <p class="price">0</p>
+                <p class="price" id="discount">0</p>
 
                 <p class="line"></p>
 
@@ -272,7 +272,7 @@
 
 
             var tr = 
-            `<tr>
+            `<tr class="product">
                     <td>
                         <a href="${product_page}"><img src="${photo}"></a>
                     </td>
@@ -333,7 +333,9 @@
 
 
     </script>
+    <script src="../JS/jq.js"></script>
     <script src="../JS/script.js"></script>
+    
 
 </body>
 </html>
