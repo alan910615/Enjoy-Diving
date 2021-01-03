@@ -11,20 +11,24 @@
 @font-face {
 	font-family: "taitpe-fonts-Regular"; /* 自訂名稱 */
 	src: url("../fonts/TaipeiSansTCBeta-Regular.ttf"); /* 字體檔路徑 */
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "taitpe-fonts-Light"; /* 自訂名稱 */
 	src: url("../fonts/TaipeiSansTCBeta-Light.ttf"); /* 字體檔路徑 */
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "taitpe-fonts-Bold"; /* 自訂名稱 */
 	src: url("../fonts/TaipeiSansTCBeta-Bold.ttf"); /* 字體檔路徑 */
+	font-display: swap;
 }
 @font-face {
 	font-family: "RobotoSlab"; /* 自訂名稱 */
 	src: url("../fonts/RobotoSlab-Regular.ttf"); /* 字體檔路徑 */
+	font-display: swap;
 }
 
 header {
